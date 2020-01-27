@@ -119,6 +119,30 @@ export default {
               component: './tank',
             },
             {
+              path: '/css',
+              name: 'css',
+              icon: 'apple',
+              component: './css',
+            },
+            {
+              path: '/html',
+              name: 'html',
+              icon: 'chrome',
+              component: './html',
+            },
+            {
+              path: '/algorithm',
+              icon: 'dot-chart',
+              name: 'algorithm',
+              component: './algorithm',
+            },
+            {
+              path: '/data-structure',
+              name: 'data structure',
+              icon: 'pie-chart',
+              component: './data-structure',
+            },
+            {
               component: './404',
             },
           ],
